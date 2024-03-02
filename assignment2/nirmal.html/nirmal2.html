@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+  border: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+.box{
+  width: 428px;
+  height: 700px;
+  background-color: white;
+}
+img{
+  position: relative;
+  top: 0px;
+  background-size: cover;
+  width: 427px;
+  height: 130px;
+}
+hr{
+  color: gray;
+}
+p{
+  font-family: arial;
+  position: relative;
+  left: 10px;
+}
+.border{
+  border: 2px solid transparent;
+}
+select{
+  height: 34px;
+  margin-top: 5px;
+  position: relative;
+  left: 10px;
+  top: 1px;
+  border: 1px solid transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(227, 225, 225);
+ }
+input{
+ width: 200px;
+ height: 30px;
+ margin-left: 6px;
+ border: 1px solid transparent;
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ background-color: rgb(227, 225, 225);
+}
+
+.box2{
+  width: 200px;
+ height: 30px;
+ background-color: gray;
+ border-radius: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ left: 110px;
+ top: 400px;
+}
+.text{
+  color: white;
+  text-decoration: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+            <div class="img">
+                 <img src="heding.jpg" alt="">
+            </div>
+            <hr>
+            <p><b>Login to unlock awesome benefits</b></p>
+            <div class="border">
+                <select>
+                <option>+91</option>
+                </select>
+                <input type="text" placeholder="Enter Number">
+            </div>
+            <div class="box2">
+               <p class="text"><b>Send OTP</b></p>
+            </div>
+    </div>
+</body>
+</html>
